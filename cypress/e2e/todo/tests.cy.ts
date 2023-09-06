@@ -1,7 +1,7 @@
 // cypress/integration/todo/tests.spec.ts
 
-import * as actions from './actions.cy';
-import * as selectors from './selectors.cy';
+import * as actions from './actions';
+import * as selectors from './selectors';
 
 describe('Todo List App', () => {
     beforeEach(() => {
